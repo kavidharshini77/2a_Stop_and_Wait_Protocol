@@ -10,6 +10,7 @@ To write a python program to perform stop and wait protocol
 6. Stop the Program
 ## PROGRAM
 ## server-side.py
+```
 import socket
 
 HOST = "127.0.0.1"
@@ -43,7 +44,9 @@ while True:
 
 conn.close()
 server.close()
+```
 ## client-side.py
+```
 import socket
 
 HOST = "127.0.0.1"
@@ -74,6 +77,7 @@ while True:
         break
 
 client.close()
+```
 ## OUTPUT
 <img width="867" height="123" alt="image" src="https://github.com/user-attachments/assets/eacdb095-670d-4e26-ad80-3fa2290b46fe" />
 <img width="811" height="188" alt="image" src="https://github.com/user-attachments/assets/6a845671-8586-48b8-a1a4-913391e60e67" />
